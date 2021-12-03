@@ -1,0 +1,51 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+label {
+  margin-top: 1rem;
+}
+.container {
+  border: 2px solid rgb(199, 165, 165);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.update-btn {
+  background-color: lightsalmon;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: -1.5rem;
+  margin-left: auto;
+  padding: 0.5rem;
+  font-size: x-small;
+}
+
+.update-btn:hover {
+  background-color: rgb(247, 141, 100);
+  color: #fff;
+}
+
+.reset-btn {
+  align-self: center;
+  background-color: rgb(247, 111, 111);
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 10rem;
+}
+
+.reset-btn:hover {
+  background-color: red;
+}
+
+.msg {
+  align-self: center;
+  color: green;
+}
